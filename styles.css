@@ -56,6 +56,11 @@ header {
 .nav-link {
   color: black;
 }
+/* 
+=========
+Hero Form
+=========
+*/
 #hero {
   display: flex;
   flex-direction: column;
@@ -73,6 +78,10 @@ header {
 Features
 =========
 */
+#features {
+  margin-bottom: 5rem;
+  border: 3px solid red;
+}
 .grid {
   display: flex;
   justify-content: space-between;
@@ -89,4 +98,18 @@ Features
   justify-content: center;
   flex-direction: column;
   margin-left: 2rem;
+}
+/* 
+=========
+Video section
+=========
+*/
+.video {
+  margin-top: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+.video-container {
+  text-align: center;
+  margin: 3rem 0;
 }
