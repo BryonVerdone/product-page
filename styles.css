@@ -8,6 +8,20 @@ ul {
 a {
   text-decoration: none;
 }
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+#page-wrapper {
+  position: relative;
+  z-index: 1;
+}
+/* 
+=========
+Header / Navbar
+=========
+*/
 header {
   position: fixed;
   top: 0;
@@ -16,6 +30,8 @@ header {
   justify-content: space-around;
   align-items: center;
   box-shadow: 5px 5px 15px 5px #000000;
+  z-index: 2;
+  background-color: grey;
 }
 .logo {
   display: flex;
@@ -36,4 +52,41 @@ header {
   justify-content: space-around;
   flex-direction: row;
   display: flex;
+}
+.nav-link {
+  color: black;
+}
+#hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 500px;
+  margin-top: 60px;
+}
+#form {
+  text-align: center;
+}
+/* 
+=========
+Features
+=========
+*/
+.grid {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 0;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+.desc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: 2rem;
 }
