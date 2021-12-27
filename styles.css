@@ -80,7 +80,6 @@ Features
 */
 #features {
   margin-bottom: 5rem;
-  border: 3px solid red;
 }
 .grid {
   display: flex;
@@ -112,4 +111,29 @@ Video section
 .video-container {
   text-align: center;
   margin: 3rem 0;
+}
+
+/* 
+=========
+Pricing section
+=========
+*/
+#pricing {
+  margin-top: 3rem;
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  place-items: center;
+}
+@media (max-width: 1000px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card {
+  text-align: center;
+  border: solid 3px black;
 }
